@@ -1,6 +1,10 @@
 CREATE DATABASE project1;
 
-CREATE TABLE account ( ID int NOT NULL AUTO_INCREMENT, email VARCHAR(30) UNIQUE, password VARCHAR(30), PRIMARY KEY (ID) );
+CREATE TABLE account (
+    ID int NOT NULL AUTO_INCREMENT,
+    email VARCHAR(30) UNIQUE,
+    password VARCHAR(30),
+    PRIMARY KEY (ID) );
 
 volgende table
 
